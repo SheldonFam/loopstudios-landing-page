@@ -10,7 +10,6 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
     <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Loopstudios landing page</title>
   </head>
@@ -19,7 +18,7 @@
       <header class="header">
         <div class="content-wrapper header__content-wrapper">
           <a class="logo" href="#"
-            ><img src="./images/logo.svg" alt="logo"
+            ><img class="header-logo" src="./images/logo.svg" alt="logo"
           /></a>
           <nav class="main-nav">
             <ul class="main-nav-list">
@@ -30,23 +29,20 @@
               <li class="main-nav-link"><a href="#">Support</a></li>
             </ul>
           </nav>
-          <div class="hamburger-menu-wrapper">
-            <img src="./images/icon-hamburger.svg" alt="" />
-          </div>
-          <div class="hamburger-close">
-            <img src="./images/icon-close.svg" alt="" />
-          </div>
-          <!-- <div class="mobile-menu">
-            <nav class="mobile-menu-nav">
-              <ul class="mobile-menu-list">
-                <li class="mobile-menu-link"><a href="#">About</a></li>
-                <li class="mobile-menu-link"><a href="#">Careers</a></li>
-                <li class="mobile-menu-link"><a href="#">Events</a></li>
-                <li class="mobile-menu-link"><a href="#">Products</a></li>
-                <li class="mobile-menu-link"><a href="#">Support</a></li>
-              </ul>
-            </nav>
-          </div> -->
+          <button class="btn-mobile-nav">
+            <img
+              class="icon-mobile-nav"
+              src="./images/icon-hamburger.svg"
+              alt=""
+              name="open"
+            />
+            <img
+              class="icon-mobile-nav"
+              src="./images/icon-close.svg"
+              alt=""
+              name="close"
+            />
+          </button>
         </div>
       </header>
       <section class="hero">
